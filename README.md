@@ -134,6 +134,6 @@ dev-environment-setup-wizard/
 
 ## 📄 License
 
-MIT © Shuaib S Agaka
+© Shuaib S Agaka
 
 ---

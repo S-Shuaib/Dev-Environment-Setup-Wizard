@@ -134,8 +134,6 @@ dev-environment-setup-wizard/
 
 ## 📄 License
 
-MIT © Your Name
+MIT © Shuaib S Agaka
 
 ---
-
-> Part of my [30-Day GitHub Build Roadmap](https://github.com/YOUR_USERNAME) — building and shipping one project every day.

@@ -1,7 +1,3 @@
-"""
-checks.py — Detection & installation helpers for WSL/Ubuntu + Node.js/npm
-"""
-
 import subprocess
 import shutil
 import os

@@ -1,7 +1,3 @@
-"""
-ui.py — Rich-powered UI components for Dev Wizard
-"""
-
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text

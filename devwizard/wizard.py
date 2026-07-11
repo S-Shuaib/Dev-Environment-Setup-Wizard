@@ -1,7 +1,3 @@
-"""
-wizard.py — Orchestrates all setup steps with a Rich UI
-"""
-
 import sys
 import os
 import time

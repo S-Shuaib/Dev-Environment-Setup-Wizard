@@ -106,9 +106,6 @@ def step_nvm() -> bool:
     return ok
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Step 4 — Node.js LTS
-# ─────────────────────────────────────────────────────────────────────────────
 
 def step_node() -> bool:
     step_panel(4, 5, "Install Node.js LTS", "Installing the latest Long-Term Support release via nvm")
@@ -153,9 +150,6 @@ def step_node() -> bool:
     return ok
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Step 5 — Global npm packages
-# ─────────────────────────────────────────────────────────────────────────────
 
 def step_globals():
     step_panel(5, 5, "Global npm Packages", "Optional but highly recommended tools for every JS/TS project")
@@ -201,9 +195,6 @@ def step_globals():
             warn(f"{pkg} failed - try:  npm install -g {pkg}")
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Summary
-# ─────────────────────────────────────────────────────────────────────────────
 
 def print_summary():
     section("Installation Summary")
@@ -276,10 +267,6 @@ def print_next_steps():
         "[dim]Star this tool on GitHub if it helped you![/dim]",
     ])
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Entry point
-# ─────────────────────────────────────────────────────────────────────────────
 
 def run_wizard():
     print_banner()
